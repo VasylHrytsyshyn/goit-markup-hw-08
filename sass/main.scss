@@ -1,0 +1,20 @@
+@import './utils/variables';
+@import './utils/breakpoints';
+@import './utils/placeholders';
+
+@import './base/modern-normalize';
+@import './base/base';
+@import './base/container';
+
+
+
+@import './components/activity';
+@import './components/footer';
+@import './components/header';
+@import './components/hero';
+@import './components/modal-form';
+@import './components/our-features';
+@import './components/our-projects';
+@import './components/portfolio-filter';
+@import './components/regular-customers';
+@import './components/team';

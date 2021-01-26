@@ -1,0 +1,62 @@
+.regular-customers {
+	padding-top: 60px;
+	padding-bottom: 60px;
+	background: $primary-bg-color;
+	@media screen and (min-width: $desktop){
+		padding-bottom: 94px;
+		padding-top: 94px;
+	}
+	
+	h2 {
+		text-align: center;
+		margin-bottom: 30px;
+	
+		font-weight: 700;
+		font-size: 28px;
+		line-height: 1.18;
+		letter-spacing: 0.03em;
+		color: $primary-text-color;
+		@media screen and (min-width: $desktop) {
+			margin-bottom: 50px;
+			font-size: 36px;
+			line-height: 1.17;
+		}
+	}
+}
+
+.regular-customers-list {
+	display:flex;
+	flex-wrap: wrap;
+	margin: -15px;
+}
+
+.customers-logo {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: 15px;
+		
+		width: 210px;
+		height: 90px;
+		@media screen and (min-width: $tablet){
+			width: 226px;
+		}
+		@media screen and (min-width: $desktop){
+			width: 170px;
+		}
+
+		border: 1px solid $icon-team-color;
+		box-sizing: border-box;
+		border-radius: 4px;
+		fill:  #AFB1B8;
+		cursor: pointer;
+		transition-property: border-color, fill;
+		transition-duration: 250ms;
+		transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+		transition-delay: 0;
+		&:focus,
+		&:hover {
+			border-color: $hero-button-bg;
+			fill: $hero-button-bg;
+		}
+}

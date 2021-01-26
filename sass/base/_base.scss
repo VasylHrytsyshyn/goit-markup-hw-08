@@ -1,0 +1,22 @@
+body {
+	font-family: Roboto;
+	background: $primary-bg-color;
+}
+body li {
+	list-style-type: none;
+}
+
+/*убираем стандартные маржены*/
+h1,
+h2,
+h3,
+h4,
+p,
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	display: block;
+}

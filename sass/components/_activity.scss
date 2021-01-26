@@ -1,0 +1,57 @@
+.activity {
+	@media screen and (max-width: 1199px) {
+		display: none;
+	}
+}
+
+.activity  h2 {
+	text-align: center;
+
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.17;
+	letter-spacing: 0.03em;
+	color: $primary-text-color
+}
+
+/*ПОЗИЦІОНУВАННЯ ТЕКСТУ ПОВЕРХ ЗОБРАЖЕНЬ*/
+
+.activity-block {
+	position: relative;
+}
+
+.activity-text {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+
+	padding-top: 27px;
+	padding-right: 82px;
+	padding-bottom: 27px;
+	padding-left: 83px;
+
+	background-color: rgba(47, 48, 58, 0.8);
+
+	P {
+		font-weight: 700;
+		font-size: 14px;
+		line-height: 1.14;
+		text-align: center;
+		letter-spacing: 0.03em;
+		text-transform: uppercase;
+	
+		color: $hero-text-color;
+	}
+}
+
+/*end ПОЗИЦІОНУВАННЯ ТЕКСТУ ПОВЕРХ ЗОБРАЖЕНЬ*/
+.activity-list {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 50px;
+	img {
+		display: block;
+	}
+}
+
